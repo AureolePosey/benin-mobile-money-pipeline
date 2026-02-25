@@ -64,19 +64,19 @@ benin-mobile-money-pipeline/
 
 ##  How to Run
 
-### 1️⃣ Create virtual environment
+### 1️- Create virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 
 
-2️⃣ Install dependencies
+2️- Install dependencies
 
 pip install -r requirements.txt
 
 
-3️⃣ Run the pipeline
+3️- Run the pipeline
 
 
 python src/generate_data.py
