@@ -128,9 +128,14 @@ Aspiring Data Engineer | Python | PySpark | SQL
 
 
 
-## 🚀 Future Improvements
+## ⚙️ Continuous Integration
 
-- Fraud detection logic
-- Partitioned parquet optimization
-- CI/CD integration
-- Airflow orchestration
+This project includes a GitHub Actions workflow.
+
+On every push to the `main` branch:
+
+- Dependencies are installed
+- The pipeline is executed automatically
+- The build fails if any error occurs
+
+This ensures reliability and reproducibility.
