@@ -1,6 +1,6 @@
 # 🇧🇯 Benin Mobile Money Data Pipeline (PySpark)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project simulates and processes Mobile Money transaction data in Benin using PySpark.  
 It demonstrates a complete end-to-end Data Engineering pipeline including:
@@ -15,7 +15,7 @@ The goal is to showcase practical Data Engineering skills using Spark.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The pipeline is structured as follows:
 
@@ -42,7 +42,7 @@ The pipeline is structured as follows:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 benin-mobile-money-pipeline/
 │
 ├── data/
@@ -62,7 +62,7 @@ benin-mobile-money-pipeline/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1️⃣ Create virtual environment
 
@@ -85,7 +85,7 @@ python src/validate.py
 python src/transform.py
 
 
-📊 Example Outputs
+ Example Outputs
 
 Transaction volume by region
 
@@ -97,19 +97,19 @@ All processed datasets are saved in:
 
 data/processed/
 
-🛠 Technologies Used
+ Technologies Used
 
-Python
+-Python
 
-PySpark
+-PySpark
 
-Parquet
+-Parquet
 
-WSL (Windows Subsystem for Linux)
+-WSL (Windows Subsystem for Linux)
 
 
 
-🎯 Key Learnings
+ Key Learnings
 
 Building a structured Data Engineering pipeline
 
@@ -121,14 +121,14 @@ Writing optimized analytical datasets
 
 
 
-👤 Author
+ Author
 
 Rogelio Edjekpoto
 Aspiring Data Engineer | Python | PySpark | SQL
 
 
 
-## ⚙️ Continuous Integration
+##  Continuous Integration
 
 This project includes a GitHub Actions workflow.
 
