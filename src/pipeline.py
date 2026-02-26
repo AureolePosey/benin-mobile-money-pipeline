@@ -7,19 +7,19 @@ from transform import main as transform_main
 def main():
     print("🚀 Starting Benin Mobile Money Pipeline...\n")
 
-    print("1️⃣ Generating data...")
+    print("1️ Generating data...")
     generate_main()
 
-    print("\n2️⃣ Ingesting data...")
+    print("\n2️ Ingesting data...")
     ingest_main()
 
-    print("\n3️⃣ Validating data...")
+    print("\n3️ Validating data...")
     validate_main()
 
-    print("\n4️⃣ Transforming data...")
+    print("\n4️ Transforming data...")
     transform_main()
 
-    print("\n✅ Pipeline completed successfully!")
+    print("\n Pipeline completed successfully!")
 
 
 if __name__ == "__main__":
